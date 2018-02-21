@@ -1,0 +1,574 @@
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.AI.NeuralNetworks.Api", "E01D.Base.AI.NeuralNetworks.Api\E01D.Base.AI.NeuralNetworks.Api.csproj", "{209a6c69-6bc3-4139-8a4b-a868c753f75a}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.AI.NeuralNetworks.Models", "E01D.Base.AI.NeuralNetworks.Models\E01D.Base.AI.NeuralNetworks.Models.csproj", "{f20dab20-516c-48e2-a368-9b788a9dacdf}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Apis.Api", "E01D.Base.Apis.Api\E01D.Base.Apis.Api.csproj", "{96235666-db1b-428d-b396-d24d82ae0597}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Associations.Api", "E01D.Base.Associations.Api\E01D.Base.Associations.Api.csproj", "{f087f032-ca57-47a7-b5ad-a615b3539470}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Associations.Models", "E01D.Base.Associations.Models\E01D.Base.Associations.Models.csproj", "{a66cab41-8c99-42bf-90f1-7ae67913b477}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Async.Api", "E01D.Base.Async.Api\E01D.Base.Async.Api.csproj", "{00e76049-6391-465f-baef-12e763d058d9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Booting.Api", "E01D.Base.Booting.Api\E01D.Base.Booting.Api.csproj", "{8216782f-c45d-4744-8853-7a36862316b9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Booting.Models", "E01D.Base.Booting.Models\E01D.Base.Booting.Models.csproj", "{e49ab0a3-f478-4cd9-a544-69e5b2cf69fb}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Conceptual.Api", "E01D.Base.Cli.Metadata.Conceptual.Api\E01D.Base.Cli.Metadata.Conceptual.Api.csproj", "{cc08bbb1-0824-4c06-8307-53d114d1595c}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Conceptual.Enums", "E01D.Base.Cli.Metadata.Conceptual.Enums\E01D.Base.Cli.Metadata.Conceptual.Enums.csproj", "{4a0fb576-df66-4f7e-8779-ae54435a9fef}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Conceptual.Models", "E01D.Base.Cli.Metadata.Conceptual.Models\E01D.Base.Cli.Metadata.Conceptual.Models.csproj", "{dd043377-8627-4c7d-abb9-7976a564c46d}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Logical.Api", "E01D.Base.Cli.Metadata.Logical.Api\E01D.Base.Cli.Metadata.Logical.Api.csproj", "{b4089a9a-2e1b-4355-84b0-dd8bbf4abb71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Logical.Models", "E01D.Base.Cli.Metadata.Logical.Models\E01D.Base.Cli.Metadata.Logical.Models.csproj", "{66ccaa27-dad2-483d-8474-9a2b8b252cf8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Physical.Api", "E01D.Base.Cli.Metadata.Physical.Api\E01D.Base.Cli.Metadata.Physical.Api.csproj", "{dd4db13e-4dce-47b1-97b3-a22302f9a8d2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Physical.Models", "E01D.Base.Cli.Metadata.Physical.Models\E01D.Base.Cli.Metadata.Physical.Models.csproj", "{4743936b-8619-43f0-8258-fce9028f4499}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Semantic.Api", "E01D.Base.Cli.Metadata.Semantic.Api\E01D.Base.Cli.Metadata.Semantic.Api.csproj", "{0730ec22-60d8-495e-a94f-2250eb6812fb}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Semantic.Exceptions.Api", "E01D.Base.Cli.Metadata.Semantic.Exceptions.Api\E01D.Base.Cli.Metadata.Semantic.Exceptions.Api.csproj", "{52e6a633-32c6-49bb-aba3-230d33167049}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Semantic.Exceptions.Models", "E01D.Base.Cli.Metadata.Semantic.Exceptions.Models\E01D.Base.Cli.Metadata.Semantic.Exceptions.Models.csproj", "{4c2d0b9e-eaf0-406f-8caa-78531396654e}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Semantic.Models", "E01D.Base.Cli.Metadata.Semantic.Models\E01D.Base.Cli.Metadata.Semantic.Models.csproj", "{4714b833-e914-457d-bab2-64b9d2e947b8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Structural.Api", "E01D.Base.Cli.Metadata.Structural.Api\E01D.Base.Cli.Metadata.Structural.Api.csproj", "{4d0db470-80cc-4b20-96c0-5ef6fa1f71a6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Structural.Models", "E01D.Base.Cli.Metadata.Structural.Models\E01D.Base.Cli.Metadata.Structural.Models.csproj", "{3ef3586d-c813-4c5c-8074-241e85e34c49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Symbols.Api", "E01D.Base.Cli.Metadata.Symbols.Api\E01D.Base.Cli.Metadata.Symbols.Api.csproj", "{5a96042b-5779-4ce3-bd60-de3c43a10d7b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Symbols.Api.All", "E01D.Base.Cli.Metadata.Symbols.Api.All\E01D.Base.Cli.Metadata.Symbols.Api.All.csproj", "{89d7ea26-f9f0-44e1-90a5-99ca104e43a7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Symbols.Models", "E01D.Base.Cli.Metadata.Symbols.Models\E01D.Base.Cli.Metadata.Symbols.Models.csproj", "{25171b6f-661e-41b7-8a73-584d440e95d3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Api", "E01D.Base.Cli.Metadata.Api\E01D.Base.Cli.Metadata.Api.csproj", "{5db9efe3-099b-4ec8-922b-b68ba97201b1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Api.All", "E01D.Base.Cli.Metadata.Api.All\E01D.Base.Cli.Metadata.Api.All.csproj", "{44718f41-4606-457c-a8b2-8958171581eb}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Enums", "E01D.Base.Cli.Metadata.Enums\E01D.Base.Cli.Metadata.Enums.csproj", "{dcc39925-1335-4173-8fe9-330f1e5d6e57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Exceptions.Models", "E01D.Base.Cli.Metadata.Exceptions.Models\E01D.Base.Cli.Metadata.Exceptions.Models.csproj", "{8dd4ad70-43f5-4b4e-863d-a1ce7b96aae6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Metadata.Models", "E01D.Base.Cli.Metadata.Models\E01D.Base.Cli.Metadata.Models.csproj", "{597667e5-c783-46d9-881f-208d1eced5cf}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Cli.Exceptions.Models", "E01D.Base.Cli.Exceptions.Models\E01D.Base.Cli.Exceptions.Models.csproj", "{9c973554-3c53-46f5-862a-4863db349f07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.Digicella.Hosts.ConsoleHost", "E01D.Base.Clr.Digicella.Hosts.ConsoleHost\E01D.Base.Clr.Digicella.Hosts.ConsoleHost.csproj", "{848442ef-ad7a-46e5-b9a6-422592ba49ca}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Emit.Api.All", "E01D.Base.Clr.DotNet.Emit.Api.All\E01D.Base.Clr.DotNet.Emit.Api.All.csproj", "{108321b4-5096-4cca-8700-80b11fea09fc}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Emit.Api", "E01D.Base.Clr.DotNet.Emit.Api\E01D.Base.Clr.DotNet.Emit.Api.csproj", "{f10d7eef-e795-4663-8996-ad388b904c00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Emit.Enums", "E01D.Base.Clr.DotNet.Emit.Enums\E01D.Base.Clr.DotNet.Emit.Enums.csproj", "{14aa6dbd-2e9b-4f45-9978-c4547aadc985}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Emit.Models", "E01D.Base.Clr.DotNet.Emit.Models\E01D.Base.Clr.DotNet.Emit.Models.csproj", "{9f798a7e-0e69-4b7a-bc12-45e82c2e0ec2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Api", "E01D.Base.Clr.DotNet.Reflection.Api\E01D.Base.Clr.DotNet.Reflection.Api.csproj", "{164a415d-ee57-45fb-9e07-0494378d293d}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Api.All", "E01D.Base.Clr.DotNet.Reflection.Api.All\E01D.Base.Clr.DotNet.Reflection.Api.All.csproj", "{4930ddaa-0abd-4bae-b677-dd029ad102d5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Assemblies.Api", "E01D.Base.Clr.DotNet.Reflection.Assemblies.Api\E01D.Base.Clr.DotNet.Reflection.Assemblies.Api.csproj", "{6b10a9f0-f5fd-4ec1-8a35-8eb3ac450852}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Assemblies.Api.All", "E01D.Base.Clr.DotNet.Reflection.Assemblies.Api.All\E01D.Base.Clr.DotNet.Reflection.Assemblies.Api.All.csproj", "{519b11c5-a4ad-4734-a694-a96e295310df}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Assemblies.Models", "E01D.Base.Clr.DotNet.Reflection.Assemblies.Models\E01D.Base.Clr.DotNet.Reflection.Assemblies.Models.csproj", "{50cd46e4-13e7-4b32-a2d2-7e095092d4a2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Assemblies.Scanning.Api", "E01D.Base.Clr.DotNet.Reflection.Assemblies.Scanning.Api\E01D.Base.Clr.DotNet.Reflection.Assemblies.Scanning.Api.csproj", "{f7a7f780-c783-415d-bf79-308ea5b248f5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Attributes.Api.All", "E01D.Base.Clr.DotNet.Reflection.Attributes.Api.All\E01D.Base.Clr.DotNet.Reflection.Attributes.Api.All.csproj", "{c22270b5-c04a-47a2-a253-b3702011deb5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Enums", "E01D.Base.Clr.DotNet.Reflection.Enums\E01D.Base.Clr.DotNet.Reflection.Enums.csproj", "{e86de826-f746-4546-930f-499e456fc2fa}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Fields.Api", "E01D.Base.Clr.DotNet.Reflection.Fields.Api\E01D.Base.Clr.DotNet.Reflection.Fields.Api.csproj", "{838bc7aa-8c3d-4f6e-a005-2b4140dd0501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Fields.Api.All", "E01D.Base.Clr.DotNet.Reflection.Fields.Api.All\E01D.Base.Clr.DotNet.Reflection.Fields.Api.All.csproj", "{cebe2727-06a6-404c-b339-8f5cc4046400}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.IO.Api.All", "E01D.Base.Clr.DotNet.Reflection.IO.Api.All\E01D.Base.Clr.DotNet.Reflection.IO.Api.All.csproj", "{a3ef44d9-3f13-46de-8ac4-57671a665bed}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.IO.Scanning.Api", "E01D.Base.Clr.DotNet.Reflection.IO.Scanning.Api\E01D.Base.Clr.DotNet.Reflection.IO.Scanning.Api.csproj", "{07b47b59-d964-44b8-9fb6-7702b15f83d5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Members.Api", "E01D.Base.Clr.DotNet.Reflection.Members.Api\E01D.Base.Clr.DotNet.Reflection.Members.Api.csproj", "{45fd6410-40d5-40a3-83ce-052910693f71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Members.Api.All", "E01D.Base.Clr.DotNet.Reflection.Members.Api.All\E01D.Base.Clr.DotNet.Reflection.Members.Api.All.csproj", "{6d16879d-2210-4680-8085-659cca3f8bcb}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Methods.Api", "E01D.Base.Clr.DotNet.Reflection.Methods.Api\E01D.Base.Clr.DotNet.Reflection.Methods.Api.csproj", "{0aa4654c-7a81-4051-835f-1d2838b05241}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Methods.Api.All", "E01D.Base.Clr.DotNet.Reflection.Methods.Api.All\E01D.Base.Clr.DotNet.Reflection.Methods.Api.All.csproj", "{63e283fb-4f1a-46de-8c95-8b16d0f61d4e}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Models", "E01D.Base.Clr.DotNet.Reflection.Models\E01D.Base.Clr.DotNet.Reflection.Models.csproj", "{de8b7f21-9daf-4cfb-a29c-13a1a30cfef7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Objects.Api", "E01D.Base.Clr.DotNet.Reflection.Objects.Api\E01D.Base.Clr.DotNet.Reflection.Objects.Api.csproj", "{34e4ce40-4074-4af6-a693-65e6c3b9a018}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Objects.Models", "E01D.Base.Clr.DotNet.Reflection.Objects.Models\E01D.Base.Clr.DotNet.Reflection.Objects.Models.csproj", "{40949150-52c2-45c8-baad-c7150477b5f0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Properties.Api", "E01D.Base.Clr.DotNet.Reflection.Properties.Api\E01D.Base.Clr.DotNet.Reflection.Properties.Api.csproj", "{2e4d0612-c375-4e89-9f29-01467d9f7dbe}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Properties.Api.All", "E01D.Base.Clr.DotNet.Reflection.Properties.Api.All\E01D.Base.Clr.DotNet.Reflection.Properties.Api.All.csproj", "{511f64ad-b70d-4f3e-b1e9-ab7781e443e8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Scanning.Api.All", "E01D.Base.Clr.DotNet.Reflection.Scanning.Api.All\E01D.Base.Clr.DotNet.Reflection.Scanning.Api.All.csproj", "{09e1cd19-06a9-473a-857a-135d2bf59f2a}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Statics", "E01D.Base.Clr.DotNet.Reflection.Statics\E01D.Base.Clr.DotNet.Reflection.Statics.csproj", "{22a6c627-a178-4274-8c95-00dc4841a53f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Types.Api", "E01D.Base.Clr.DotNet.Reflection.Types.Api\E01D.Base.Clr.DotNet.Reflection.Types.Api.csproj", "{d41af4dc-d88e-4557-9490-3d94bad27fd1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Types.Api.All", "E01D.Base.Clr.DotNet.Reflection.Types.Api.All\E01D.Base.Clr.DotNet.Reflection.Types.Api.All.csproj", "{c2c7175d-c6af-4efd-aea0-2ec323bbb061}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api", "E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api\E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api.csproj", "{d925b4ab-b811-4e13-977f-64130714a7f6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Types.Constants", "E01D.Base.Clr.DotNet.Reflection.Types.Constants\E01D.Base.Clr.DotNet.Reflection.Types.Constants.csproj", "{def69d59-bb4b-4b45-aa9c-e5c26855e52c}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Types.Contexts.Models", "E01D.Base.Clr.DotNet.Reflection.Types.Contexts.Models\E01D.Base.Clr.DotNet.Reflection.Types.Contexts.Models.csproj", "{b223b188-19e2-456e-b4f0-a3b3949982d4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Types.Enums", "E01D.Base.Clr.DotNet.Reflection.Types.Enums\E01D.Base.Clr.DotNet.Reflection.Types.Enums.csproj", "{330fa8a5-bc69-4869-91a2-893174af6922}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Types.Identification.Api", "E01D.Base.Clr.DotNet.Reflection.Types.Identification.Api\E01D.Base.Clr.DotNet.Reflection.Types.Identification.Api.csproj", "{f173b013-78ff-440a-a627-8fa0f534e298}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Types.Models", "E01D.Base.Clr.DotNet.Reflection.Types.Models\E01D.Base.Clr.DotNet.Reflection.Types.Models.csproj", "{dd38bc63-9434-4f6f-8782-590bed9694bb}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Types.Scanning.Api", "E01D.Base.Clr.DotNet.Reflection.Types.Scanning.Api\E01D.Base.Clr.DotNet.Reflection.Types.Scanning.Api.csproj", "{75c5be7b-95c8-4ee7-9617-401a494e95d2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Reflection.Types.Statics", "E01D.Base.Clr.DotNet.Reflection.Types.Statics\E01D.Base.Clr.DotNet.Reflection.Types.Statics.csproj", "{a1bf84cf-1a93-4ec6-b459-098be016a61b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Api.All", "E01D.Base.Clr.DotNet.Api.All\E01D.Base.Clr.DotNet.Api.All.csproj", "{a2ef0149-5b30-4f0d-bfe4-1c4bfddd7cbf}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.DotNet.Statics", "E01D.Base.Clr.DotNet.Statics\E01D.Base.Clr.DotNet.Statics.csproj", "{3de706c8-a01c-4850-ae42-66648089e16f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.General.Reflection.Api", "E01D.Base.Clr.General.Reflection.Api\E01D.Base.Clr.General.Reflection.Api.csproj", "{6fbba4e8-2341-4bf3-bc6d-d327f45287d9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.General.Reflection.Attributes", "E01D.Base.Clr.General.Reflection.Attributes\E01D.Base.Clr.General.Reflection.Attributes.csproj", "{e4888831-557a-48fd-bd15-79e2ac7ecd5c}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.General.Reflection.Data.Sql.Api", "E01D.Base.Clr.General.Reflection.Data.Sql.Api\E01D.Base.Clr.General.Reflection.Data.Sql.Api.csproj", "{655963fc-79fb-4e94-955b-0089153e6359}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.General.Reflection.Models", "E01D.Base.Clr.General.Reflection.Models\E01D.Base.Clr.General.Reflection.Models.csproj", "{68f79d54-b776-48f8-8e1e-92c2fe24deef}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.General.Reflection.Scanning.Attributes", "E01D.Base.Clr.General.Reflection.Scanning.Attributes\E01D.Base.Clr.General.Reflection.Scanning.Attributes.csproj", "{edb2c687-1308-48b9-96a6-43812ae1ea44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Clr.General.Reflection.Types.Api", "E01D.Base.Clr.General.Reflection.Types.Api\E01D.Base.Clr.General.Reflection.Types.Api.csproj", "{11f2586e-a702-417b-82d1-5828963e0555}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Constants", "E01D.Base.Collections.Constants\E01D.Base.Collections.Constants.csproj", "{da595650-f912-4d92-94d2-98a12a6672fe}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.DoubleDictionaries.Api", "E01D.Base.Collections.DoubleDictionaries.Api\E01D.Base.Collections.DoubleDictionaries.Api.csproj", "{eb299462-7534-459c-ba53-42b4c12aa8cc}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.DoubleDictionaries.Models", "E01D.Base.Collections.DoubleDictionaries.Models\E01D.Base.Collections.DoubleDictionaries.Models.csproj", "{ae61fbec-e6d6-4b39-92f2-5084eacf1a74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.DI", "E01D.Base.Collections.DI\E01D.Base.Collections.DI.csproj", "{7e8f60d2-79de-442b-96a8-f241907b8ef8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.General.Api", "E01D.Base.Collections.General.Api\E01D.Base.Collections.General.Api.csproj", "{08e7b742-fb40-49c4-9ace-7a96bc79782b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Standard.Api", "E01D.Base.Collections.Standard.Api\E01D.Base.Collections.Standard.Api.csproj", "{e910110d-31e7-4b9b-9c47-12c9826a918a}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Standard.Models", "E01D.Base.Collections.Standard.Models\E01D.Base.Collections.Standard.Models.csproj", "{a61d7601-40a9-4bbc-9be3-e5f46a38706f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Arrays", "E01D.Base.Collections.Arrays\E01D.Base.Collections.Arrays.csproj", "{692a30e1-4461-468d-952e-c9ec375cc159}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections", "E01D.Base.Collections\E01D.Base.Collections.csproj", "{5fe72acc-4a49-4bfb-8550-2f654ba5d6a2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Abstractions", "E01D.Base.Collections.Abstractions\E01D.Base.Collections.Abstractions.csproj", "{c80b7620-b4b3-4d3e-aa29-f58f5955bd7a}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.ArrayLists", "E01D.Base.Collections.ArrayLists\E01D.Base.Collections.ArrayLists.csproj", "{69e0b556-3b49-4dbf-ac54-abd81b36d012}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.ArrayLists.Models", "E01D.Base.Collections.ArrayLists.Models\E01D.Base.Collections.ArrayLists.Models.csproj", "{171c12a8-9d54-45ab-b051-aea6c0cd1ed0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Dictionaries", "E01D.Base.Collections.Dictionaries\E01D.Base.Collections.Dictionaries.csproj", "{f7cf700c-df26-489f-b582-5dcccdc8b6d0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Dictionaries.Models", "E01D.Base.Collections.Dictionaries.Models\E01D.Base.Collections.Dictionaries.Models.csproj", "{79c84897-3a0c-42e6-ad00-b90111a1226d}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.DoubleLinkedLists", "E01D.Base.Collections.DoubleLinkedLists\E01D.Base.Collections.DoubleLinkedLists.csproj", "{224baadd-c989-4b3d-86e8-fbb1b111eb87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.DoubleLinkedLists.Models", "E01D.Base.Collections.DoubleLinkedLists.Models\E01D.Base.Collections.DoubleLinkedLists.Models.csproj", "{bb18cf55-f3d2-4106-95bd-f765c37ac0ec}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Hashtables.Models", "E01D.Base.Collections.Hashtables.Models\E01D.Base.Collections.Hashtables.Models.csproj", "{3cd8333a-9b2b-444d-a05c-ab98095729c6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.LinkedLists.Models", "E01D.Base.Collections.LinkedLists.Models\E01D.Base.Collections.LinkedLists.Models.csproj", "{e2ceee6c-cb2c-411d-8a8b-3ff894862a94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Lists", "E01D.Base.Collections.Lists\E01D.Base.Collections.Lists.csproj", "{b19430f5-f708-4f8b-bf0a-6a9c6f999279}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Lists.Models", "E01D.Base.Collections.Lists.Models\E01D.Base.Collections.Lists.Models.csproj", "{1785cc03-4816-46d1-b576-7bb25f5b57ac}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.ReadOnly", "E01D.Base.Collections.ReadOnly\E01D.Base.Collections.ReadOnly.csproj", "{bf9c190c-24bc-4cd2-9f56-6a06887e3caf}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.ReadOnly.Models", "E01D.Base.Collections.ReadOnly.Models\E01D.Base.Collections.ReadOnly.Models.csproj", "{544a09d2-b3e8-451a-a600-4e5af424fee1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.ThreadSafe.Api", "E01D.Base.Collections.ThreadSafe.Api\E01D.Base.Collections.ThreadSafe.Api.csproj", "{273d053e-1b07-4194-8f88-e793b3df9dd5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.ThreadSafe.Models", "E01D.Base.Collections.ThreadSafe.Models\E01D.Base.Collections.ThreadSafe.Models.csproj", "{6ebcfe40-eb30-45fe-973c-dfcfbf373f1f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Trees", "E01D.Base.Collections.Trees\E01D.Base.Collections.Trees.csproj", "{913e27a6-ea79-4d15-88e6-a0e7c6f47c5e}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Collections.Trees.Models", "E01D.Base.Collections.Trees.Models\E01D.Base.Collections.Trees.Models.csproj", "{d55d1e7a-ba04-4c4e-8a7f-11dca57887c8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Sorting.Api", "E01D.Base.Sorting.Api\E01D.Base.Sorting.Api.csproj", "{71d2b322-8cfc-4f7d-9c69-e10c8e98f2fa}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.CommandLines.Api", "E01D.Base.CommandLines.Api\E01D.Base.CommandLines.Api.csproj", "{6c519a9c-bacb-4691-aaf2-80e680604f19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.Api", "E01D.Base.Configurational.Settings.Api\E01D.Base.Configurational.Settings.Api.csproj", "{b0caa66d-4b50-47f0-9409-8ff9807358e3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.Data.Models", "E01D.Base.Configurational.Settings.Data.Models\E01D.Base.Configurational.Settings.Data.Models.csproj", "{b2274ca7-f4bb-49c8-89df-08771bc150b8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.Ef.Api", "E01D.Base.Configurational.Settings.Ef.Api\E01D.Base.Configurational.Settings.Ef.Api.csproj", "{5ef64ebb-de47-402c-a07a-7b7cd20999b3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.Enums", "E01D.Base.Configurational.Settings.Enums\E01D.Base.Configurational.Settings.Enums.csproj", "{91f407db-beb2-4496-9b13-5e709a8d1d02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.Files.Api", "E01D.Base.Configurational.Settings.Files.Api\E01D.Base.Configurational.Settings.Files.Api.csproj", "{a4e1aca0-a783-418a-b744-638a6bdc3ea8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.Files.Models", "E01D.Base.Configurational.Settings.Files.Models\E01D.Base.Configurational.Settings.Files.Models.csproj", "{1980500c-dfbb-43f0-ae85-34976f58e52e}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.Ini.Api", "E01D.Base.Configurational.Settings.Ini.Api\E01D.Base.Configurational.Settings.Ini.Api.csproj", "{b0a1f07f-3362-41c6-83ea-5ed7cbdc4c4c}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.Json.Api", "E01D.Base.Configurational.Settings.Json.Api\E01D.Base.Configurational.Settings.Json.Api.csproj", "{432a2e30-697a-4cb1-8354-4e837b1980a1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.Json.Models", "E01D.Base.Configurational.Settings.Json.Models\E01D.Base.Configurational.Settings.Json.Models.csproj", "{8d0b80ac-3f02-4421-acc9-311b6695faa7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.Memory.Api", "E01D.Base.Configurational.Settings.Memory.Api\E01D.Base.Configurational.Settings.Memory.Api.csproj", "{78d8cc71-6311-4327-b4d2-b2462b6c5015}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.Models", "E01D.Base.Configurational.Settings.Models\E01D.Base.Configurational.Settings.Models.csproj", "{f0a744d6-9a7f-46d1-8846-47e329283712}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.SqlServer.Api", "E01D.Base.Configurational.Settings.SqlServer.Api\E01D.Base.Configurational.Settings.SqlServer.Api.csproj", "{9451f489-e8a6-4518-8509-2c65b207d997}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Settings.SqlServer.Models", "E01D.Base.Configurational.Settings.SqlServer.Models\E01D.Base.Configurational.Settings.SqlServer.Models.csproj", "{3977cc44-eff0-42b0-9ca7-0fc614a5e619}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Api", "E01D.Base.Configurational.Api\E01D.Base.Configurational.Api.csproj", "{a8fd4c7b-e46f-49d4-8073-28c4ab759876}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Api.All", "E01D.Base.Configurational.Api.All\E01D.Base.Configurational.Api.All.csproj", "{7c41dff3-bac1-4fa3-9704-d0aed5161bdc}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Models", "E01D.Base.Configurational.Models\E01D.Base.Configurational.Models.csproj", "{c77b547e-642b-4054-8ed2-bc0d53484c7f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Models.All", "E01D.Base.Configurational.Models.All\E01D.Base.Configurational.Models.All.csproj", "{2f5e0b4d-c65f-4ec8-9d4e-46d0c6e127b1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational", "E01D.Base.Configurational\E01D.Base.Configurational.csproj", "{2e2cc9ef-c819-42a0-ab50-58ba74008935}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Configurational.Abstractions", "E01D.Base.Configurational.Abstractions\E01D.Base.Configurational.Abstractions.csproj", "{622f38db-4dee-422a-b748-896f812fc3d3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Consoles.Api", "E01D.Base.Consoles.Api\E01D.Base.Consoles.Api.csproj", "{db8a1134-a608-445f-8c97-7346a20430e0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Consoles.Models", "E01D.Base.Consoles.Models\E01D.Base.Consoles.Models.csproj", "{001fdf69-d31a-4faa-94b9-e7b8c910b429}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Containers.Api", "E01D.Base.Containers.Api\E01D.Base.Containers.Api.csproj", "{943beadc-cd19-4e27-9ac1-568f2ffa76e9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Containers.Collections.Api", "E01D.Base.Containers.Collections.Api\E01D.Base.Containers.Collections.Api.csproj", "{e750ed9c-1b31-4fc5-9214-eff3518f2a4b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Containers.Collections.Models", "E01D.Base.Containers.Collections.Models\E01D.Base.Containers.Collections.Models.csproj", "{8a7738c4-3467-4faf-b2ba-175040aba35a}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Containers.Ioc.Api", "E01D.Base.Containers.Ioc.Api\E01D.Base.Containers.Ioc.Api.csproj", "{b964612a-5669-4044-8a12-1d5b2dcf78f6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Containers.Ioc.Basic.Api", "E01D.Base.Containers.Ioc.Basic.Api\E01D.Base.Containers.Ioc.Basic.Api.csproj", "{c24e4ed4-0104-4e05-b8f3-ff4891965e86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Containers.Ioc.Basic.Models", "E01D.Base.Containers.Ioc.Basic.Models\E01D.Base.Containers.Ioc.Basic.Models.csproj", "{d3aa2e57-1599-4aee-891c-753cc8ee8f2f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Containers.Ioc.Models", "E01D.Base.Containers.Ioc.Models\E01D.Base.Containers.Ioc.Models.csproj", "{f6747fad-bec7-4742-b27c-d248a85546fa}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Containers.Models", "E01D.Base.Containers.Models\E01D.Base.Containers.Models.csproj", "{9628c8e8-1344-4e18-a536-68411b9c78b7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Containers.Models.Standard", "E01D.Base.Containers.Models.Standard\E01D.Base.Containers.Models.Standard.csproj", "{db210c8f-01c7-4856-abed-743e48b879a8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Contextual.Api", "E01D.Base.Contextual.Api\E01D.Base.Contextual.Api.csproj", "{0b0bdce9-0b06-47bb-bea7-94d711080b1b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Contextual.Api.All", "E01D.Base.Contextual.Api.All\E01D.Base.Contextual.Api.All.csproj", "{ec3c5046-bb13-4d9c-96b4-3670c4255a53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Contextual.Api.Factory", "E01D.Base.Contextual.Api.Factory\E01D.Base.Contextual.Api.Factory.csproj", "{426fa0cc-2bca-4e89-9090-7acd21685a41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Contextual.Api.Standard", "E01D.Base.Contextual.Api.Standard\E01D.Base.Contextual.Api.Standard.csproj", "{418a9b80-f46c-4d7b-bf63-b9206f9adde9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Contextual.Models", "E01D.Base.Contextual.Models\E01D.Base.Contextual.Models.csproj", "{6a6a6bd8-6533-4b99-8958-43c0f1f7cbbc}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Contextual.Models.Globals", "E01D.Base.Contextual.Models.Globals\E01D.Base.Contextual.Models.Globals.csproj", "{9df443ae-4547-40cc-8025-f0cba35acca5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Api", "E01D.Base.Data.Api\E01D.Base.Data.Api.csproj", "{b605b4bb-75ee-462d-9e4d-eac1525b6915}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Api.All", "E01D.Base.Data.Api.All\E01D.Base.Data.Api.All.csproj", "{e93d8e25-179f-4b1f-95ef-2295d545961f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Attributes", "E01D.Base.Data.Attributes\E01D.Base.Data.Attributes.csproj", "{41fe4357-9d58-45f2-99f0-bcb1f14843ab}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Configurational.Models", "E01D.Base.Data.Configurational.Models\E01D.Base.Data.Configurational.Models.csproj", "{4cac36f8-8cc0-4feb-b400-dec7d78f9f6e}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Containers.Api", "E01D.Base.Data.Containers.Api\E01D.Base.Data.Containers.Api.csproj", "{87d661d6-8a68-42ee-bbe1-6913eb167348}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Enums", "E01D.Base.Data.Enums\E01D.Base.Data.Enums.csproj", "{7166c7b5-f463-4c57-acf0-c91c8d68fc38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Models", "E01D.Base.Data.Models\E01D.Base.Data.Models.csproj", "{0cfd23eb-13e0-4181-b246-5c4fabcba927}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Queries.Models", "E01D.Base.Data.Queries.Models\E01D.Base.Data.Queries.Models.csproj", "{db17219c-21b1-4d6f-a03c-960f3a937007}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.EF", "E01D.Base.Data.EF\E01D.Base.Data.EF.csproj", "{a824434b-68fb-4d05-90b7-c4e18e73fbb1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Framework.Models", "E01D.Base.Data.Framework.Models\E01D.Base.Data.Framework.Models.csproj", "{91f0b429-e81f-49b5-8e03-0e092a8af2b7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.ModelProviders", "E01D.Base.Data.ModelProviders\E01D.Base.Data.ModelProviders.csproj", "{bbcbaee3-f4aa-4c7c-a42a-652a24e3d40b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Models.Framework", "E01D.Base.Data.Models.Framework\E01D.Base.Data.Models.Framework.csproj", "{9771a0d2-8e55-4800-8821-350dc215bca7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Sql.Api", "E01D.Base.Data.Sql.Api\E01D.Base.Data.Sql.Api.csproj", "{3bcdf88c-248e-4d28-98d8-2cb9e1c71ef5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Sql.Api.Framework", "E01D.Base.Data.Sql.Api.Framework\E01D.Base.Data.Sql.Api.Framework.csproj", "{78d28635-b1a3-402d-a89c-c44663fc1189}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Sql.ConnectionStrings.Api", "E01D.Base.Data.Sql.ConnectionStrings.Api\E01D.Base.Data.Sql.ConnectionStrings.Api.csproj", "{4a2c0cf0-b09c-4e14-9ccb-3ef9c15fd88b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Sql.Models", "E01D.Base.Data.Sql.Models\E01D.Base.Data.Sql.Models.csproj", "{f455f3fa-f589-48e6-b3f4-359bf9e105fe}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Data.Sql.SqlServer.Api", "E01D.Base.Data.Sql.SqlServer.Api\E01D.Base.Data.Sql.SqlServer.Api.csproj", "{38218159-d025-4337-b470-6198b5965861}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Debugging.Api", "E01D.Base.Debugging.Api\E01D.Base.Debugging.Api.csproj", "{0e7caa4b-2bfa-44d7-8bb0-d3c26c71ef77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Debugging.Enums", "E01D.Base.Debugging.Enums\E01D.Base.Debugging.Enums.csproj", "{3c07cf88-f512-4e07-ab66-1b515de0cbd0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Debugging.Models", "E01D.Base.Debugging.Models\E01D.Base.Debugging.Models.csproj", "{5d257baa-7904-440b-9d16-1fb775805e51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Errors.Api", "E01D.Base.Errors.Api\E01D.Base.Errors.Api.csproj", "{e632ef62-6017-48c3-acee-4c1fb75cb422}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Errors.Exceptions", "E01D.Base.Errors.Exceptions\E01D.Base.Errors.Exceptions.csproj", "{5b0798ab-2c9f-476e-84a5-ee3e30722908}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Errors.Models", "E01D.Base.Errors.Models\E01D.Base.Errors.Models.csproj", "{f844e01a-a5a5-4d1b-a755-b461895944e8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Identification.Api", "E01D.Base.Identification.Api\E01D.Base.Identification.Api.csproj", "{72b4b2d7-d1c0-4633-b528-625fee7ec9c3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Identification.Exceptions", "E01D.Base.Identification.Exceptions\E01D.Base.Identification.Exceptions.csproj", "{66bed0d7-1b8a-4c15-895d-509d0b7fd2ae}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Identification.Factories.Api", "E01D.Base.Identification.Factories.Api\E01D.Base.Identification.Factories.Api.csproj", "{9bb919d0-f749-4711-b2ab-fe09cbfc2c8d}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Identification.Models", "E01D.Base.Identification.Models\E01D.Base.Identification.Models.csproj", "{1400939b-beb6-4e69-9221-358e85f4515f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Identification.Models.Primitives", "E01D.Base.Identification.Models.Primitives\E01D.Base.Identification.Models.Primitives.csproj", "{5e32db2b-e311-42df-a644-4c4a86ac2c22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.IO.Api", "E01D.Base.IO.Api\E01D.Base.IO.Api.csproj", "{cc57b8d2-47f6-4692-96b2-0693bedb32ae}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.IO.Codecs.Api", "E01D.Base.IO.Codecs.Api\E01D.Base.IO.Codecs.Api.csproj", "{21b2f406-4748-4333-b564-4797ce63e05a}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.IO.Codecs.Exts", "E01D.Base.IO.Codecs.Exts\E01D.Base.IO.Codecs.Exts.csproj", "{87a73bb3-f30b-4c4b-a057-a11ee2f7f669}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.IO.Codecs.Streams.Api", "E01D.Base.IO.Codecs.Streams.Api\E01D.Base.IO.Codecs.Streams.Api.csproj", "{ef447f7d-9edc-48ec-a173-d4ecba7b4cdd}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.IO.Codecs.Streams.Exts", "E01D.Base.IO.Codecs.Streams.Exts\E01D.Base.IO.Codecs.Streams.Exts.csproj", "{4c963a69-4544-4110-a44b-ac001749ab9e}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.IO.Codecs.Streams.Models", "E01D.Base.IO.Codecs.Streams.Models\E01D.Base.IO.Codecs.Streams.Models.csproj", "{1e5d913f-fb0b-44b6-9908-94d57f8395e4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.IO.Enums", "E01D.Base.IO.Enums\E01D.Base.IO.Enums.csproj", "{0ba32bb4-8f30-4a8f-9840-ad7db9ed3e5f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.IO.Exts", "E01D.Base.IO.Exts\E01D.Base.IO.Exts.csproj", "{918a0dc6-440f-42bc-bec7-7fc533654d9f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.IO.Models", "E01D.Base.IO.Models\E01D.Base.IO.Models.csproj", "{62741ca2-e997-4f6c-8523-d463122aabf3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.IO.Streams.Api", "E01D.Base.IO.Streams.Api\E01D.Base.IO.Streams.Api.csproj", "{b221d944-465e-4791-9575-89956b96e9b6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Json.Api", "E01D.Base.Json.Api\E01D.Base.Json.Api.csproj", "{27e0bd0a-5a34-43aa-8a36-4c04c32326df}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Json.Models", "E01D.Base.Json.Models\E01D.Base.Json.Models.csproj", "{9d540479-7e0e-4016-a9ca-21db259b8448}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Json.Reflection.Api", "E01D.Base.Json.Reflection.Api\E01D.Base.Json.Reflection.Api.csproj", "{92609166-feb1-423a-aa50-c6ff3c175caa}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Json.Reflection.Models", "E01D.Base.Json.Reflection.Models\E01D.Base.Json.Reflection.Models.csproj", "{d1ddb5de-9fbf-430d-8d0b-9e00a5505047}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Json.Simple", "E01D.Base.Json.Simple\E01D.Base.Json.Simple.csproj", "{78f55e5a-962d-41ae-a48c-fe1df013b9a0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Layers.Api", "E01D.Base.Layers.Api\E01D.Base.Layers.Api.csproj", "{5060c999-eacf-4220-8d47-92a56b1899eb}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Layers.Api.All", "E01D.Base.Layers.Api.All\E01D.Base.Layers.Api.All.csproj", "{f268b547-c12e-4d68-93e0-f782e0a0d371}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Layers.Containers.Api", "E01D.Base.Layers.Containers.Api\E01D.Base.Layers.Containers.Api.csproj", "{ccea4308-bab9-4233-a556-24353eb12625}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Layers.Data.Containers.Api", "E01D.Base.Layers.Data.Containers.Api\E01D.Base.Layers.Data.Containers.Api.csproj", "{17f847e6-0c8d-49de-86b0-9649e6aa1dce}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Layers.Enums", "E01D.Base.Layers.Enums\E01D.Base.Layers.Enums.csproj", "{ec835240-8f0f-425a-ba05-77fc51b6c8ae}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Layers.Exceptions", "E01D.Base.Layers.Exceptions\E01D.Base.Layers.Exceptions.csproj", "{16d74b4e-a906-4eb1-982a-c537ee5a8fc5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Layers.Logical.Api", "E01D.Base.Layers.Logical.Api\E01D.Base.Layers.Logical.Api.csproj", "{1947b234-d586-4251-ae76-0e8daf972c9a}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Layers.Logical.Api.All", "E01D.Base.Layers.Logical.Api.All\E01D.Base.Layers.Logical.Api.All.csproj", "{61dc10bf-fc60-435a-919e-0d622d910680}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Layers.Logical.Containers.Api", "E01D.Base.Layers.Logical.Containers.Api\E01D.Base.Layers.Logical.Containers.Api.csproj", "{7dbdb7d9-f29c-4f49-9177-ff975c0df18a}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Layers.Logical.Models", "E01D.Base.Layers.Logical.Models\E01D.Base.Layers.Logical.Models.csproj", "{bffa32da-a746-42b8-bbab-a4e827c7b613}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Layers.Models", "E01D.Base.Layers.Models\E01D.Base.Layers.Models.csproj", "{a9269729-e975-4acb-a1a3-f5eb6bdce857}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Logging.Api", "E01D.Base.Logging.Api\E01D.Base.Logging.Api.csproj", "{15bf83fa-0542-4e2d-b2f7-06f691402c7a}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Logging.Api.All", "E01D.Base.Logging.Api.All\E01D.Base.Logging.Api.All.csproj", "{acaffd15-1dd0-4791-8e34-86a940eff054}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Logging.Models", "E01D.Base.Logging.Models\E01D.Base.Logging.Models.csproj", "{b166e28a-bdfd-405c-98e8-499174b18c37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Logical.Api.Framework", "E01D.Base.Logical.Api.Framework\E01D.Base.Logical.Api.Framework.csproj", "{955ab838-196c-4b5d-bb81-3d1e10a6a40b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Math", "E01D.Base.Math\E01D.Base.Math.csproj", "{2e6eac0d-0258-4e38-b6dc-2f10a49ef691}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Math.Abstractions", "E01D.Base.Math.Abstractions\E01D.Base.Math.Abstractions.csproj", "{0395bcdf-c509-4d9f-83cc-f463e5e82b56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Math.Hex", "E01D.Base.Math.Hex\E01D.Base.Math.Hex.csproj", "{ce232f77-1b7b-4123-9926-c650a38932fd}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Numeric.Api", "E01D.Base.Numeric.Api\E01D.Base.Numeric.Api.csproj", "{24a06e44-42ad-4b7c-9b46-379f3d91341b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Memory.Api", "E01D.Base.Memory.Api\E01D.Base.Memory.Api.csproj", "{85ec5256-2a7a-4037-995e-2f7ecdc7ff28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Naming.Models", "E01D.Base.Naming.Models\E01D.Base.Naming.Models.csproj", "{bee8da33-70fa-40b4-80d7-b6da086c7358}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Net.Http.Json.Rpc", "E01D.Base.Net.Http.Json.Rpc\E01D.Base.Net.Http.Json.Rpc.csproj", "{c0735b01-d986-459a-8dab-1e651ec18b29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Net.Http", "E01D.Base.Net.Http\E01D.Base.Net.Http.csproj", "{ffaf69d2-233b-4825-979b-0bfd3fe98d7a}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Net.Http.Abstractions", "E01D.Base.Net.Http.Abstractions\E01D.Base.Net.Http.Abstractions.csproj", "{18845c97-6d0d-451d-8494-2e3a895b9fd9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Net.Http.Rest", "E01D.Base.Net.Http.Rest\E01D.Base.Net.Http.Rest.csproj", "{8c7af2d9-210f-4982-99e9-cf5348a90ede}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Net.Http.Rest.Abstractions", "E01D.Base.Net.Http.Rest.Abstractions\E01D.Base.Net.Http.Rest.Abstractions.csproj", "{227261c3-3a84-4649-89aa-0d6d86106bbb}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Net.Http.Rest.Db.Dap", "E01D.Base.Net.Http.Rest.Db.Dap\E01D.Base.Net.Http.Rest.Db.Dap.csproj", "{ada250fc-f316-462d-b4a9-97f5343dbf51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Net.Http.Rest.Db.EF", "E01D.Base.Net.Http.Rest.Db.EF\E01D.Base.Net.Http.Rest.Db.EF.csproj", "{9fc81f21-ee4a-4610-a5f2-758476fd1bd9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.NetFramework.Enumeration.Api", "E01D.Base.NetFramework.Enumeration.Api\E01D.Base.NetFramework.Enumeration.Api.csproj", "{2dcc3e72-415c-4584-8a14-5c87eb8e45b4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.NetFramework.Enumeration.Models", "E01D.Base.NetFramework.Enumeration.Models\E01D.Base.NetFramework.Enumeration.Models.csproj", "{0901425f-7cce-478c-9669-20a9a4b72bbc}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.NetFramework.ObjectCreation.Api", "E01D.Base.NetFramework.ObjectCreation.Api\E01D.Base.NetFramework.ObjectCreation.Api.csproj", "{078ae5b8-5bcc-459b-b77c-2ae89c5bc208}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.NetFramework.ToStrings.Api", "E01D.Base.NetFramework.ToStrings.Api\E01D.Base.NetFramework.ToStrings.Api.csproj", "{a77ff415-adf4-484e-9c9a-294db4849b2e}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Objectal.Factories.Models", "E01D.Base.Objectal.Factories.Models\E01D.Base.Objectal.Factories.Models.csproj", "{55eb39a3-1443-429f-9e20-0fbc9f49aae0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Objectal.Api", "E01D.Base.Objectal.Api\E01D.Base.Objectal.Api.csproj", "{15b8fdbf-2e62-42bf-810e-e73a9c18203c}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Objectal.Models", "E01D.Base.Objectal.Models\E01D.Base.Objectal.Models.csproj", "{45dae714-b95b-458c-9724-e35a1b6927fa}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Organizations.Models", "E01D.Base.Organizations.Models\E01D.Base.Organizations.Models.csproj", "{5ad4dec4-2b86-46f4-a2d8-069c95c237a2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Pocos.Api", "E01D.Base.Pocos.Api\E01D.Base.Pocos.Api.csproj", "{49eb6233-3118-40fc-914a-ba82113f79dc}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Pocos.Models", "E01D.Base.Pocos.Models\E01D.Base.Pocos.Models.csproj", "{0a7dc4bb-3421-4924-860e-47c842194bae}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.All", "E01D.Base.Primitives.All\E01D.Base.Primitives.All.csproj", "{ecc92a38-6521-46b7-8e2f-5d3a0e18fa22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Arrays.Api", "E01D.Base.Primitives.Arrays.Api\E01D.Base.Primitives.Arrays.Api.csproj", "{6ef73a35-0fab-4957-a6ca-04d96c627b4c}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Bool.Api", "E01D.Base.Primitives.Bool.Api\E01D.Base.Primitives.Bool.Api.csproj", "{83240867-233c-4802-b986-2175e95d1cca}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Conversion.Api", "E01D.Base.Primitives.Conversion.Api\E01D.Base.Primitives.Conversion.Api.csproj", "{b6ae1557-ed38-4b48-8bb2-4fb3939b41e5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.DateTimes.Api", "E01D.Base.Primitives.DateTimes.Api\E01D.Base.Primitives.DateTimes.Api.csproj", "{a86629a5-1616-4f75-a4c9-bdf3b9ac5b1c}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.DateTimes.Enums", "E01D.Base.Primitives.DateTimes.Enums\E01D.Base.Primitives.DateTimes.Enums.csproj", "{7db5c2e3-de96-4710-b53a-7c03d6ef9fd3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.DateTimes.Models", "E01D.Base.Primitives.DateTimes.Models\E01D.Base.Primitives.DateTimes.Models.csproj", "{2bfd6b6b-b9e4-4224-94a9-e050d96486dd}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Enums.Api", "E01D.Base.Primitives.Enums.Api\E01D.Base.Primitives.Enums.Api.csproj", "{3587a274-f432-4ebf-a3ef-ef37d2f7fff6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Enums.Models", "E01D.Base.Primitives.Enums.Models\E01D.Base.Primitives.Enums.Models.csproj", "{234c1f1d-5cde-485e-8a79-a852b1be3b73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Guids.Api", "E01D.Base.Primitives.Guids.Api\E01D.Base.Primitives.Guids.Api.csproj", "{0dfe28a6-ae6c-4130-956c-f37101939ab4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Json.Statics", "E01D.Base.Primitives.Json.Statics\E01D.Base.Primitives.Json.Statics.csproj", "{d9a367bc-7bda-4243-b720-2c833765c814}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Strings.Api", "E01D.Base.Primitives.Strings.Api\E01D.Base.Primitives.Strings.Api.csproj", "{e3528319-883a-4a05-acee-bc704b1eb0d0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Strings.Base64Encoding.Api", "E01D.Base.Primitives.Strings.Base64Encoding.Api\E01D.Base.Primitives.Strings.Base64Encoding.Api.csproj", "{d39ffc93-be18-43ee-a8e3-1a3fc411bd19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Strings.Base64Encoding.Constants", "E01D.Base.Primitives.Strings.Base64Encoding.Constants\E01D.Base.Primitives.Strings.Base64Encoding.Constants.csproj", "{07ce1de0-9e1e-4d0f-a08c-7717dcfe69bb}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Strings.Base64Encoding.Models", "E01D.Base.Primitives.Strings.Base64Encoding.Models\E01D.Base.Primitives.Strings.Base64Encoding.Models.csproj", "{9ddf9336-4926-4241-b3ba-6b8cffce1911}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Strings.Enums", "E01D.Base.Primitives.Strings.Enums\E01D.Base.Primitives.Strings.Enums.csproj", "{1082e2aa-ce01-4cf6-9de1-bb826849da7d}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Strings.Javascript.Api", "E01D.Base.Primitives.Strings.Javascript.Api\E01D.Base.Primitives.Strings.Javascript.Api.csproj", "{775252da-8e97-4210-931a-c56f11299bf3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Strings.Models", "E01D.Base.Primitives.Strings.Models\E01D.Base.Primitives.Strings.Models.csproj", "{55a402f5-6bde-4da7-a4fc-751a722444c2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Primitives.Strings.Textual.Async.Api", "E01D.Base.Primitives.Strings.Textual.Async.Api\E01D.Base.Primitives.Strings.Textual.Async.Api.csproj", "{3ed7a904-457f-4dc3-acc3-cfe872c6bbf4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Processes.Modeling.Api", "E01D.Base.Processes.Modeling.Api\E01D.Base.Processes.Modeling.Api.csproj", "{0a1052a4-c66d-4607-a9ea-488d619af66b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Processes.Modeling.Models", "E01D.Base.Processes.Modeling.Models\E01D.Base.Processes.Modeling.Models.csproj", "{a0d5ede9-5141-4645-891d-bb34c29403ab}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Processes.Api", "E01D.Base.Processes.Api\E01D.Base.Processes.Api.csproj", "{fe231773-0c4e-4643-9458-5961d5557bbe}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Processes.Models", "E01D.Base.Processes.Models\E01D.Base.Processes.Models.csproj", "{81bd2c7b-8a88-4ae0-b63a-cfc1088f9a39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Results.Api", "E01D.Base.Results.Api\E01D.Base.Results.Api.csproj", "{ddad1493-a00a-463e-872e-a2970c38b2a9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Results.Models", "E01D.Base.Results.Models\E01D.Base.Results.Models.csproj", "{dc05018e-db96-4166-88c6-09b5c2448f9e}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Security.Api", "E01D.Base.Security.Api\E01D.Base.Security.Api.csproj", "{e4f6aaed-378c-49cb-b83e-5072d52a0391}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Security.Data.Sql.Api", "E01D.Base.Security.Data.Sql.Api\E01D.Base.Security.Data.Sql.Api.csproj", "{72eac2d8-4841-41d4-8514-5af79d126015}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Security.Models", "E01D.Base.Security.Models\E01D.Base.Security.Models.csproj", "{f34b0378-5617-491e-95bb-981bd2f873e2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Security.Authentication.Web.Apis.Api", "E01D.Base.Security.Authentication.Web.Apis.Api\E01D.Base.Security.Authentication.Web.Apis.Api.csproj", "{0b441bd0-ea77-4928-abaa-0d0737e9ee19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Security.Jwt.Api", "E01D.Base.Security.Jwt.Api\E01D.Base.Security.Jwt.Api.csproj", "{4f1de1d5-3f4c-4c10-8941-7d637dbd4c46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Security.Jwt.Models", "E01D.Base.Security.Jwt.Models\E01D.Base.Security.Jwt.Models.csproj", "{682c79a4-ade8-4484-bd83-bafe3f419740}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Security.Models", "E01D.Base.Security.Models\E01D.Base.Security.Models.csproj", "{8c842d76-23db-45f3-a420-aef0c0019a37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Signalling.Api", "E01D.Base.Signalling.Api\E01D.Base.Signalling.Api.csproj", "{932301b2-14ea-40de-aae9-ae0960fb6509}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Signalling.Attributes", "E01D.Base.Signalling.Attributes\E01D.Base.Signalling.Attributes.csproj", "{199fd94f-d8d9-45b3-8b54-efb2c8537388}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Signalling.Enums", "E01D.Base.Signalling.Enums\E01D.Base.Signalling.Enums.csproj", "{3cc71ec5-3891-4876-93d6-fdeff4486f8f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Signalling.Models", "E01D.Base.Signalling.Models\E01D.Base.Signalling.Models.csproj", "{0cfcfd47-6588-48ba-bd03-c16d95bbf913}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Signalling.DatabaseDriven", "E01D.Base.Signalling.DatabaseDriven\E01D.Base.Signalling.DatabaseDriven.csproj", "{22abeaa5-693f-43e1-8fe4-f435aaa73c21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Signalling.Mvc", "E01D.Base.Signalling.Mvc\E01D.Base.Signalling.Mvc.csproj", "{f340e294-7e98-40bb-bfce-3bddfd2e3b8d}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Signalling.PackageDriven", "E01D.Base.Signalling.PackageDriven\E01D.Base.Signalling.PackageDriven.csproj", "{dbc37651-99f2-4c99-b8ad-8b55233140d3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Signalling.StaticTextDriven", "E01D.Base.Signalling.StaticTextDriven\E01D.Base.Signalling.StaticTextDriven.csproj", "{179b7876-c948-44ae-978d-8aab4c99d98a}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Testing.Api", "E01D.Base.Testing.Api\E01D.Base.Testing.Api.csproj", "{85d4259a-4a79-4291-a920-588785adf858}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Textual.Api", "E01D.Base.Textual.Api\E01D.Base.Textual.Api.csproj", "{6610a011-7577-4972-a764-44cfcfa36102}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Textual.Enums", "E01D.Base.Textual.Enums\E01D.Base.Textual.Enums.csproj", "{674fda65-918a-4e35-a07e-f86afd701202}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Textual.Models", "E01D.Base.Textual.Models\E01D.Base.Textual.Models.csproj", "{94983a81-ebd2-4875-b787-2c2c97f7d0ff}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Tracing.Api", "E01D.Base.Tracing.Api\E01D.Base.Tracing.Api.csproj", "{224c5b8a-3698-4b29-94c4-5c698f834e05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Transactions.Api", "E01D.Base.Transactions.Api\E01D.Base.Transactions.Api.csproj", "{0b089366-b15e-45f4-92cc-11d06cc54132}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Transactions.Models", "E01D.Base.Transactions.Models\E01D.Base.Transactions.Models.csproj", "{e40eb768-137d-4202-bfc4-972026f1deec}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Transceiving", "E01D.Base.Transceiving\E01D.Base.Transceiving.csproj", "{d371db81-6480-465f-a7e8-1a03c7c6a28c}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Transceiving.Abstractions", "E01D.Base.Transceiving.Abstractions\E01D.Base.Transceiving.Abstractions.csproj", "{0d2ea5a8-1f9b-4515-9601-084d21e0fc8f}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Types.Models.Primitives", "E01D.Base.Types.Models.Primitives\E01D.Base.Types.Models.Primitives.csproj", "{45b18be0-3b1a-451a-b854-d49f84fa8cdf}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Validation.Api", "E01D.Base.Validation.Api\E01D.Base.Validation.Api.csproj", "{267cfa29-83be-4fe0-8a5b-6f0ad06a0663}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Web.Apis.Api", "E01D.Base.Web.Apis.Api\E01D.Base.Web.Apis.Api.csproj", "{4b7e64a9-2010-4ec4-881d-d08f75027858}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Web.Apis.Framework.Models", "E01D.Base.Web.Apis.Framework.Models\E01D.Base.Web.Apis.Framework.Models.csproj", "{1a045bbd-13fe-46c0-a43b-6cba83b5983c}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Web.Apis.Models", "E01D.Base.Web.Apis.Models\E01D.Base.Web.Apis.Models.csproj", "{2bfd1e92-81f4-4672-86ea-17132292da85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Xml.Api", "E01D.Base.Xml.Api\E01D.Base.Xml.Api.csproj", "{76652a73-2a84-4673-8bb5-a1284d4db867}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Xml.Exts", "E01D.Base.Xml.Exts\E01D.Base.Xml.Exts.csproj", "{2fcce410-1288-43a4-81ad-c37b43a95a02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Xml.Models", "E01D.Base.Xml.Models\E01D.Base.Xml.Models.csproj", "{9bc5ec95-8d3a-4ff0-9467-d5978128fcf1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Api", "E01D.Base.Api\E01D.Base.Api.csproj", "{f942580f-1c9b-43ff-806b-af0e38c2e6e6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Api.All", "E01D.Base.Api.All\E01D.Base.Api.All.csproj", "{f14aff75-b96e-4808-96ef-76eb1b74b924}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Constants", "E01D.Base.Constants\E01D.Base.Constants.csproj", "{c2d38c87-0779-4af6-b6ea-499c624ed1f0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Framework", "E01D.Base.Framework\E01D.Base.Framework.csproj", "{5260c979-9af8-4b05-ad5f-c75c76715f79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Messaging.Messages.Models", "E01D.Base.Messaging.Messages.Models\E01D.Base.Messaging.Messages.Models.csproj", "{3255d610-d55e-4c5a-851d-40b20ba285f9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Models", "E01D.Base.Models\E01D.Base.Models.csproj", "{aa06ce43-49d4-4756-a893-f0f8cc12f17b}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Models.All", "E01D.Base.Models.All\E01D.Base.Models.All.csproj", "{fade2610-076d-4eb5-8d3a-583bd18ef981}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Values.Api", "E01D.Base.Values.Api\E01D.Base.Values.Api.csproj", "{c84baf55-94a8-4e43-876e-438a7faf7e03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Values.Models", "E01D.Base.Values.Models\E01D.Base.Values.Models.csproj", "{a010caff-78fe-4d75-9125-29620dceb076}"
+EndProject
