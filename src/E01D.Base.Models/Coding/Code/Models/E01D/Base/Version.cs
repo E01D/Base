@@ -1,0 +1,10 @@
+﻿namespace Root.Coding.Code.Models.E01D.Base
+{
+    public class Version
+    {
+        public int Major { get; set; }
+        public int Minor { get; set; }
+        public int Build { get; set; }
+        public int Revision { get; set; }
+    }
+}

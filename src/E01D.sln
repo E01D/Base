@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{18AE1A5E-47AC-4F33-BE1C-8C1C50D15A1F}"
 EndProject
@@ -712,6 +712,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Organizations", "Organizations", "{DD34910B-0F85-456A-A2FA-195B86944178}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E01D.Base.Math.Numeric.Api", "E01D.Base.Math.Numeric.Api\E01D.Base.Math.Numeric.Api.csproj", "{9D08F7F3-4E5F-4F75-BDC9-F50F2E5AEA31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7AC2036C-8AF7-454B-9E72-7A148D17B032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E01D.Base.Testing.Tests.Core", "E01D.Base.Testing.Tests.Core\E01D.Base.Testing.Tests.Core.csproj", "{DE718284-4924-41D3-B778-89ACDCCD1BDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1871,6 +1875,10 @@ Global
 		{9D08F7F3-4E5F-4F75-BDC9-F50F2E5AEA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D08F7F3-4E5F-4F75-BDC9-F50F2E5AEA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D08F7F3-4E5F-4F75-BDC9-F50F2E5AEA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE718284-4924-41D3-B778-89ACDCCD1BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE718284-4924-41D3-B778-89ACDCCD1BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE718284-4924-41D3-B778-89ACDCCD1BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE718284-4924-41D3-B778-89ACDCCD1BDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2227,6 +2235,8 @@ Global
 		{D6D02760-34F2-4DFA-82C5-E739DADC3B9B} = {18AE1A5E-47AC-4F33-BE1C-8C1C50D15A1F}
 		{DD34910B-0F85-456A-A2FA-195B86944178} = {18AE1A5E-47AC-4F33-BE1C-8C1C50D15A1F}
 		{9D08F7F3-4E5F-4F75-BDC9-F50F2E5AEA31} = {1786FA89-3709-42A3-B1C9-8847942A9987}
+		{7AC2036C-8AF7-454B-9E72-7A148D17B032} = {7269F100-B484-4903-9EE9-EF3691EC02D3}
+		{DE718284-4924-41D3-B778-89ACDCCD1BDF} = {7269F100-B484-4903-9EE9-EF3691EC02D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F81345F5-DDFF-4D5C-BC3D-558A3B376A68}

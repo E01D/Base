@@ -2,11 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\E01D.Base.Values.Models\E01D.Base.Values.Models.csproj" />
+    <PackageReference Include="NUnit" Version="3.9.0" />
   </ItemGroup>
 
 </Project>
