@@ -1,4 +1,8 @@
-﻿namespace Root.Coding.Code.Constants.E01D.Base
+﻿// Licensed to the .NET Foundation under one or more agreements.
+// The .NET Foundation licenses this file to you under the MIT license.
+// See: https://github.com/dotnet/corert/blob/master/src/System.Private.CoreLib/src/System/Array.CoreRT.cs
+
+namespace Root.Coding.Code.Constants.E01D.Base
 {
     public class ArrayConsts
     {
