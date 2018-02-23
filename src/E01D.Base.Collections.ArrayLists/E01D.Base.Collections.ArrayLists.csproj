@@ -1,8 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Api\E01D.Base.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.Abstractions\E01D.Base.Collections.Abstractions.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.ArrayLists.Models\E01D.Base.Collections.ArrayLists.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.Lists.Models\E01D.Base.Collections.Lists.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.ReadOnly.Models\E01D.Base.Collections.ReadOnly.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.ReadOnly\E01D.Base.Collections.ReadOnly.csproj" />
 
+  </ItemGroup>
 </Project>

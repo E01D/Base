@@ -1,8 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api\E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Models\E01D.Base.Clr.DotNet.Reflection.Types.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Containers.Ioc.Basic.Api\E01D.Base.Containers.Ioc.Basic.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Containers.Ioc.Basic.Models\E01D.Base.Containers.Ioc.Basic.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Containers.Ioc.Models\E01D.Base.Containers.Ioc.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Containers.Models\E01D.Base.Containers.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Contextual.Models.Globals\E01D.Base.Contextual.Models.Globals.csproj" />
+    <ProjectReference Include="..\E01D.Base.Contextual.Models\E01D.Base.Contextual.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Identification.Models\E01D.Base.Identification.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Types.Models.Primitives\E01D.Base.Types.Models.Primitives.csproj" />
 
+  </ItemGroup>
 </Project>

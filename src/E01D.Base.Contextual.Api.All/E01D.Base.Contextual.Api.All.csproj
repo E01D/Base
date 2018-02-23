@@ -1,8 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Contextual.Api.Factory\E01D.Base.Contextual.Api.Factory.csproj" />
+    <ProjectReference Include="..\E01D.Base.Contextual.Api\E01D.Base.Contextual.Api.csproj" />
 
+  </ItemGroup>
 </Project>

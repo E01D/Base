@@ -1,8 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Booting.Api\E01D.Base.Booting.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Booting.Models\E01D.Base.Booting.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.General.Reflection.Types.Api\E01D.Base.Clr.General.Reflection.Types.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Configurational.Api\E01D.Base.Configurational.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Configurational.Settings.Api\E01D.Base.Configurational.Settings.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Data.Api.All\E01D.Base.Data.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Data.Api\E01D.Base.Data.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.NetFramework.ObjectCreation.Api\E01D.Base.NetFramework.ObjectCreation.Api.csproj" />
 
+  </ItemGroup>
 </Project>

@@ -1,8 +1,28 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Emit.Models\E01D.Base.Clr.DotNet.Emit.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Api.All\E01D.Base.Clr.DotNet.Reflection.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Attributes.Api.All\E01D.Base.Clr.DotNet.Reflection.Attributes.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Members.Api.All\E01D.Base.Clr.DotNet.Reflection.Members.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Models\E01D.Base.Clr.DotNet.Reflection.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Objects.Api\E01D.Base.Clr.DotNet.Reflection.Objects.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Objects.Models\E01D.Base.Clr.DotNet.Reflection.Objects.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Properties.Api\E01D.Base.Clr.DotNet.Reflection.Properties.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Api.All\E01D.Base.Clr.DotNet.Reflection.Types.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api\E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Errors.Api\E01D.Base.Errors.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Errors.Exceptions\E01D.Base.Errors.Exceptions.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Api\E01D.Base.Primitives.Strings.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Models\E01D.Base.Primitives.Strings.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.ThreadSafe.Api\E01D.Base.Collections.ThreadSafe.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.ThreadSafe.Models\E01D.Base.Collections.ThreadSafe.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Json.Models\E01D.Base.Json.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Json.Reflection.Models\E01D.Base.Json.Reflection.Models.csproj" />
 
+  </ItemGroup>
 </Project>

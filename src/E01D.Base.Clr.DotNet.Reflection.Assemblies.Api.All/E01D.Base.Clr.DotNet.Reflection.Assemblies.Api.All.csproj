@@ -1,8 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Assemblies.Api\E01D.Base.Clr.DotNet.Reflection.Assemblies.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Assemblies.Scanning.Api\E01D.Base.Clr.DotNet.Reflection.Assemblies.Scanning.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.IO.Models\E01D.Base.IO.Models.csproj" />
 
+  </ItemGroup>
 </Project>

@@ -1,8 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Api\E01D.Base.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Errors.Api\E01D.Base.Errors.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Errors.Exceptions\E01D.Base.Errors.Exceptions.csproj" />
+    <ProjectReference Include="..\E01D.Base.Logging.Api.All\E01D.Base.Logging.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Logging.Models\E01D.Base.Logging.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.Abstractions\E01D.Base.Collections.Abstractions.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.Dictionaries.Models\E01D.Base.Collections.Dictionaries.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.Lists.Models\E01D.Base.Collections.Lists.Models.csproj" />
 
+  </ItemGroup>
 </Project>

@@ -1,8 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Containers.Collections.Models\E01D.Base.Containers.Collections.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Containers.Models\E01D.Base.Containers.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Errors.Models\E01D.Base.Errors.Models.csproj" />
 
+  </ItemGroup>
 </Project>

@@ -1,8 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.IO.Codecs.Streams.Api\E01D.Base.IO.Codecs.Streams.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.IO.Codecs.Streams.Models\E01D.Base.IO.Codecs.Streams.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.IO.Models\E01D.Base.IO.Models.csproj" />
 
+  </ItemGroup>
 </Project>

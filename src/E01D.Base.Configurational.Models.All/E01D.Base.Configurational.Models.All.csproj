@@ -1,8 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Configurational.Models\E01D.Base.Configurational.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Configurational.Settings.Models\E01D.Base.Configurational.Settings.Models.csproj" />
 
+  </ItemGroup>
 </Project>

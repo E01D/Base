@@ -1,8 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Cli.Metadata.Conceptual.Enums\E01D.Base.Cli.Metadata.Conceptual.Enums.csproj" />
+    <ProjectReference Include="..\E01D.Base.Cli.Metadata.Models\E01D.Base.Cli.Metadata.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Identification.Models\E01D.Base.Identification.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Pocos.Models\E01D.Base.Pocos.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Types.Models.Primitives\E01D.Base.Types.Models.Primitives.csproj" />
 
+  </ItemGroup>
 </Project>

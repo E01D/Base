@@ -1,8 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Configurational.Settings.Api\E01D.Base.Configurational.Settings.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Configurational.Settings.Models\E01D.Base.Configurational.Settings.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Contextual.Api\E01D.Base.Contextual.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Errors.Exceptions\E01D.Base.Errors.Exceptions.csproj" />
+    <ProjectReference Include="..\E01D.Base.Identification.Exceptions\E01D.Base.Identification.Exceptions.csproj" />
+    <ProjectReference Include="..\E01D.Base.Identification.Models.Primitives\E01D.Base.Identification.Models.Primitives.csproj" />
+    <ProjectReference Include="..\E01D.Base.Identification.Models\E01D.Base.Identification.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Logging.Api\E01D.Base.Logging.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Logging.Models\E01D.Base.Logging.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.NetFramework.ObjectCreation.Api\E01D.Base.NetFramework.ObjectCreation.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Types.Models.Primitives\E01D.Base.Types.Models.Primitives.csproj" />
+    <ProjectReference Include="..\E01D.Base.Values.Models\E01D.Base.Values.Models.csproj" />
 
+  </ItemGroup>
 </Project>

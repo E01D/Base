@@ -1,8 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Primitives.Enums.Models\E01D.Base.Primitives.Enums.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Api\E01D.Base.Primitives.Strings.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Models\E01D.Base.Primitives.Strings.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.Standard.Api\E01D.Base.Collections.Standard.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.Standard.Models\E01D.Base.Collections.Standard.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.ThreadSafe.Api\E01D.Base.Collections.ThreadSafe.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.ThreadSafe.Models\E01D.Base.Collections.ThreadSafe.Models.csproj" />
 
+  </ItemGroup>
 </Project>

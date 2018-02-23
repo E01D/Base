@@ -1,8 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Attributes.Api.All\E01D.Base.Clr.DotNet.Reflection.Attributes.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Enums\E01D.Base.Clr.DotNet.Reflection.Enums.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Fields.Api.All\E01D.Base.Clr.DotNet.Reflection.Fields.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Members.Api.All\E01D.Base.Clr.DotNet.Reflection.Members.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Members.Api\E01D.Base.Clr.DotNet.Reflection.Members.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Methods.Api.All\E01D.Base.Clr.DotNet.Reflection.Methods.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Properties.Api.All\E01D.Base.Clr.DotNet.Reflection.Properties.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Statics\E01D.Base.Clr.DotNet.Reflection.Statics.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Api\E01D.Base.Clr.DotNet.Reflection.Types.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api\E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Constants\E01D.Base.Clr.DotNet.Reflection.Types.Constants.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Identification.Api\E01D.Base.Clr.DotNet.Reflection.Types.Identification.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Models\E01D.Base.Clr.DotNet.Reflection.Types.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Identification.Models.Primitives\E01D.Base.Identification.Models.Primitives.csproj" />
+    <ProjectReference Include="..\E01D.Base.Types.Models.Primitives\E01D.Base.Types.Models.Primitives.csproj" />
+    <ProjectReference Include="..\E01D.Base.Validation.Api\E01D.Base.Validation.Api.csproj" />
 
+  </ItemGroup>
 </Project>

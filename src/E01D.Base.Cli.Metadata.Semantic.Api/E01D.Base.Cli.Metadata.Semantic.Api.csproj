@@ -1,8 +1,29 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Cli.Exceptions.Models\E01D.Base.Cli.Exceptions.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Cli.Metadata.Conceptual.Api\E01D.Base.Cli.Metadata.Conceptual.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Cli.Metadata.Conceptual.Models\E01D.Base.Cli.Metadata.Conceptual.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Cli.Metadata.Exceptions.Models\E01D.Base.Cli.Metadata.Exceptions.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Cli.Metadata.Models\E01D.Base.Cli.Metadata.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Cli.Metadata.Semantic.Exceptions.Api\E01D.Base.Cli.Metadata.Semantic.Exceptions.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Cli.Metadata.Semantic.Exceptions.Models\E01D.Base.Cli.Metadata.Semantic.Exceptions.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Cli.Metadata.Semantic.Models\E01D.Base.Cli.Metadata.Semantic.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Api.All\E01D.Base.Clr.DotNet.Reflection.Types.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Framework\E01D.Base.Framework.csproj" />
+    <ProjectReference Include="..\E01D.Base.Identification.Models.Primitives\E01D.Base.Identification.Models.Primitives.csproj" />
+    <ProjectReference Include="..\E01D.Base.Identification.Models\E01D.Base.Identification.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Logging.Api.All\E01D.Base.Logging.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Logging.Models\E01D.Base.Logging.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Messaging.Messages.Models\E01D.Base.Messaging.Messages.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.NetFramework.ObjectCreation.Api\E01D.Base.NetFramework.ObjectCreation.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Pocos.Models\E01D.Base.Pocos.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Types.Models.Primitives\E01D.Base.Types.Models.Primitives.csproj" />
+    <ProjectReference Include="..\E01D.Base.Values.Models\E01D.Base.Values.Models.csproj" />
 
+  </ItemGroup>
 </Project>

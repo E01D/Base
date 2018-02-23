@@ -1,8 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Errors.Api\E01D.Base.Errors.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Conversion.Api\E01D.Base.Primitives.Conversion.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.DateTimes.Enums\E01D.Base.Primitives.DateTimes.Enums.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.DateTimes.Models\E01D.Base.Primitives.DateTimes.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Api\E01D.Base.Primitives.Strings.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Enums\E01D.Base.Primitives.Strings.Enums.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Models\E01D.Base.Primitives.Strings.Models.csproj" />
 
+  </ItemGroup>
 </Project>

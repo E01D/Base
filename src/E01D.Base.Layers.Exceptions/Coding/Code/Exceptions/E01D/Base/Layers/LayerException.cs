@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace E01D.Base.Layers.Exceptions.Coding.Code.Exceptions.E01D.Base.Layers
+{
+    public class LayerException: Root.Coding.Code.Models.E01D.Base.Exceptions.Exception
+    {
+
+    }
+}

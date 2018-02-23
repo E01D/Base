@@ -1,8 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Models\E01D.Base.Clr.DotNet.Reflection.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Enums\E01D.Base.Clr.DotNet.Reflection.Types.Enums.csproj" />
 
+  </ItemGroup>
 </Project>

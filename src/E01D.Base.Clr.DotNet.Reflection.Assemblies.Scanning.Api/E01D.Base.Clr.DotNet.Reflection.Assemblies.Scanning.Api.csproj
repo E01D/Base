@@ -1,8 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Cli.Metadata.Semantic.Models\E01D.Base.Cli.Metadata.Semantic.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Scanning.Api\E01D.Base.Clr.DotNet.Reflection.Types.Scanning.Api.csproj" />
 
+  </ItemGroup>
 </Project>

@@ -1,8 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Enums\E01D.Base.Primitives.Strings.Enums.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Models\E01D.Base.Primitives.Strings.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Math\E01D.Base.Math.csproj" />
+    <ProjectReference Include="..\E01D.Base.Memory.Api\E01D.Base.Memory.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Validation.Api\E01D.Base.Validation.Api.csproj" />
 
+  </ItemGroup>
 </Project>

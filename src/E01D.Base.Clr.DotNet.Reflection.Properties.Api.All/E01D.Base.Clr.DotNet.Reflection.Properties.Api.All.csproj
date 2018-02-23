@@ -1,8 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Methods.Api\E01D.Base.Clr.DotNet.Reflection.Methods.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Properties.Api\E01D.Base.Clr.DotNet.Reflection.Properties.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api\E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Collections.Standard.Api\E01D.Base.Collections.Standard.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Validation.Api\E01D.Base.Validation.Api.csproj" />
 
+  </ItemGroup>
 </Project>

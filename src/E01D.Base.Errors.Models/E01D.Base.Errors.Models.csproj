@@ -1,8 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Messaging.Messages.Models\E01D.Base.Messaging.Messages.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Values.Models\E01D.Base.Values.Models.csproj" />
 
+  </ItemGroup>
 </Project>

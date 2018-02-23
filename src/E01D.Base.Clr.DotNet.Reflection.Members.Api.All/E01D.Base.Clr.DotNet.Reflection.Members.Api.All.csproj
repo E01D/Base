@@ -1,8 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Attributes.Api.All\E01D.Base.Clr.DotNet.Reflection.Attributes.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Fields.Api\E01D.Base.Clr.DotNet.Reflection.Fields.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Members.Api\E01D.Base.Clr.DotNet.Reflection.Members.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Methods.Api.All\E01D.Base.Clr.DotNet.Reflection.Methods.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Properties.Api.All\E01D.Base.Clr.DotNet.Reflection.Properties.Api.All.csproj" />
+    <ProjectReference Include="..\E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api\E01D.Base.Clr.DotNet.Reflection.Types.Basic.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Validation.Api\E01D.Base.Validation.Api.csproj" />
 
+  </ItemGroup>
 </Project>

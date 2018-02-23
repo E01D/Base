@@ -1,8 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\E01D.Base.Async.Api\E01D.Base.Async.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Base64Encoding.Constants\E01D.Base.Primitives.Strings.Base64Encoding.Constants.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Base64Encoding.Models\E01D.Base.Primitives.Strings.Base64Encoding.Models.csproj" />
+    <ProjectReference Include="..\E01D.Base.Primitives.Strings.Textual.Async.Api\E01D.Base.Primitives.Strings.Textual.Async.Api.csproj" />
+    <ProjectReference Include="..\E01D.Base.Validation.Api\E01D.Base.Validation.Api.csproj" />
 
+  </ItemGroup>
 </Project>

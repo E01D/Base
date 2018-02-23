@@ -54,7 +54,12 @@ namespace E01D.Coding.Tools.ProjectCreator
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <RootNamespace>Root</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    {references}
+  </ItemGroup>
 
 </Project>";
+
+        static string referenceTemplate = @"<ProjectReference Include=""..\{0}\{1}.csproj"" />";
     }
 }
